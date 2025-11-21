@@ -3,16 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beranda</title>
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- tailwind css -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <header></header>
-
-    <main></main>
-
-    <footer></footer>
+    <header class="main-header p-[8px]">
+       
+    
+    <div class="logo-icon"></div>
+    <nav class="flex">
+        
+            <a class="border p-[4px] rounded" href="#home-page">Home</a>
+            <a class="border p-[4px] rounded"href="#our-profile-page">Our Profile</a>
+            <a class="border p-[4px] rounded"href="portfolio-page">Portfolio</a>
+            <a class="border p-[4px] rounded"href="#message">Message</a>
+   
+    </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="home-page" class="min-h-[500px] text-center content-center">
+            <h2 class="text-xl font-bold" id="Welcome-speech">Welcome To our Website</h2>
+            <p class="mt-2">Selamat datang di home page</p>        
+        </section>
+        <hr>
+        <section id="our-profile-page" class="min-h-[500px] text-center content-center">
+        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+        </section>
+        <hr>
+        <section id="portfolio-page" class="min-h-[500px] text-center content-center">
+        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+        </section>
+        <hr>
+        <section id="message" class="min-h-[500px] text-center content-center">
+        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+    <span> @2025 Copyright</span>
+    </footer>
 
     <!-- koneksi jacascript -->
     <script src="js/script.js"></script>
