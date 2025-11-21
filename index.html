@@ -9,17 +9,21 @@
 
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- botstrap -->
+      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
 </head>
 <body>
     <header class="main-header p-[8px]">
        
     
     <div class="logo-icon"></div>
-    <nav class="flex">
+    <nav class="flex"id="nav">
         
             <a class="border p-[4px] rounded" href="#home-page">Home</a>
             <a class="border p-[4px] rounded"href="#our-profile-page">Our Profile</a>
-            <a class="border p-[4px] rounded"href="portfolio-page">Portfolio</a>
+            <a class="border p-[4px] rounded"href="#our-visimisi-page">Visi & Misi</a>
+            <a class="border p-[4px] rounded"href="#galeri">Galeri</a>
             <a class="border p-[4px] rounded"href="#message">Message</a>
    
     </nav>
@@ -27,23 +31,156 @@
     <hr>
     <main>
         <section id="home-page" class="min-h-[500px] text-center content-center">
-            <h2 class="text-xl font-bold" id="Welcome-speech">Welcome To our Website</h2>
-            <p class="mt-2">Selamat datang di home page</p>        
+            <div class="container">      
+            <img clas="gambar-pertama" src="img/gambar-gedung.jpg" alt="Foto 1">  
+            <!-- <h2 class="text2" id="Welcome-speech">Welcome To our Website</h2> -->
+            <p class="text" id="Welcome-speech">Selamat datang di home page</p>
+            </div>      
         </section>
         <hr>
+
+
         <section id="our-profile-page" class="min-h-[500px] text-center content-center">
-        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
-        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+            <h2 class="profil-perusahaan" >Profil perusahaan</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+            <div class="col1">PT. Hafara merupakan perusahaan yang bergerak dalam bidang Logistik yang beralamatkan di jakarta, Berdiri sejak 2010 dan sudah memiliki beberapa kantor cabang di berbagai kota di indonesia diantaranya : Jakarta, Semarang, Surabaya, Kalimantan selatan dan juga bali, Kami selalu menyediakan jasa pengiriman barang dengan harga yang murah dan cepat</div>
+            <!-- <div class="kolom">
+                <img clas="gambar-kedua" src="img/gambar-logistik1.jpg" alt="Foto 2">
+                <img clas="gambar-ketiga" src="img/gambar-logistik2.jpg" alt="Foto 3">
+            </div> -->
+            <div class="col2">
+                <img src="img/gambar-logistik1.jpg" alt="foto 1">
+                <img src="img/gambar-logistik2.jpg" alt="foto 2">
+            </div>
+            </div>
+
+
+        <!-- <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p> -->
         </section>
         <hr>
-        <section id="portfolio-page" class="min-h-[500px] text-center content-center">
-        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
-        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+        <section id="our-visimisi-page" class="min-h-[500px] text-center content-center">
+            <h2 class="visimisi" >Visi & Misi</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+            <div class="colvisimisi">
+                <img src="img/visimisi.jpg" alt="foto 1">
+                
+            </div>
+            <div class="colvisi">
+                <h1>Visi</h1>
+                <p>Menjadi penyedia layanan logistik terintegrasi terdepan di Indonesia yang mengedepankan kecepatan, keamanan, dan kepuasan pelanggan melalui inovasi dan teknologi terkini</p>
+                <br>
+                <h1>Misi</h1>
+                <p>Menyediakan solusi logistik yang efisien dan tepat waktu," "menerapkan teknologi digital untuk meningkatkan akurasi," "mengutamakan keselamatan dalam setiap proses," dan "membangun kemitraan jangka panjang berbasis kepercayaan.</p>
+            </div>
+            <!-- <div class="kolom">
+                <img clas="gambar-kedua" src="img/gambar-logistik1.jpg" alt="Foto 2">
+                <img clas="gambar-ketiga" src="img/gambar-logistik2.jpg" alt="Foto 3">
+            </div> -->
+            
+            </div>
+
+
+        <!-- <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p> -->
         </section>
         <hr>
+
+
+        
+      
+       <section id="galeri" class="min-h-[500px] text-center content-center">
+        <h2 class="galery" >Galeri Foto</h2>
+        <div class="row-container">
+            <div class="gallery-item">
+                <img src="img/foto1.jpg" alt="Foto 1">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/foto2.jpg" alt="Foto 2">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/foto3.jpg" alt="Foto 3">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/foto4.jpg" alt="Foto 4">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/foto5.jpg" alt="Foto 5">
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/foto6.jpg" alt="Foto 6">
+            </div>
+            <div class="gallery-item">
+                <img src="img/foto7.jpg" alt="Foto 7">
+            </div>
+            <div class="gallery-item">
+                <img src="img/foto8.jpg" alt="Foto 8">
+            </div>
+        </div>
+    </section>
+       
+        <hr>
+
+        
         <section id="message" class="min-h-[500px] text-center content-center">
-        <h2 class="text-xl font-bold" >Welcome To our Website</h2>
-        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam odit sapiente quidem nobis, cupiditate amet, veritatis accusamus necessitatibus enim ullam ducimus aperiam iusto ut ex, quo velit quibusdam vitae consectetur?</p>
+        <div class="row-form">
+        <div class="col-form">
+            <div class="form-container">
+                <!-- <h2 class="tulisan-form">Kotak Pesan</h2> -->
+        
+                <form id="contactForm">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukkan email">
+
+                    <label for="email">No Telp</label>
+                    <input type="telp" id="telp" name="telp" placeholder="Masukkan No Telp">
+
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan..."></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+        <div class="table-container">
+            <!-- form hasil -->
+            <!-- <h3>Hasil Formulir</h3> -->
+            <table id="hasilTable" style="display:none;">
+                <tr>
+                    <th class="col-1">Nama</th>
+                    <th class="col-2">Email</th>
+                    <th class="col-3">No.telp</th>
+                    <th class="col-4">Pesan</th>
+                </tr>
+                <tr>
+                    <td id="hasilNama"></td>
+                    <td id="hasilEmail"></td>
+                    <td id="hasiltelp"></td>
+                    <td id="hasilPesan"></td>
+                </tr>
+               
+            </table>
+               <tbody id="tbody">
+                    <tr class="empty">
+                        <td colspan="4" text-align="center">Belum ada data</td>
+                    </tr>
+                </tbody>
+        </div>
+        </div>
         </section>
     </main>
     <hr>
@@ -53,5 +190,8 @@
 
     <!-- koneksi jacascript -->
     <script src="js/script.js"></script>
+
+    <!-- botstrap -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
 </body>
 </html>
