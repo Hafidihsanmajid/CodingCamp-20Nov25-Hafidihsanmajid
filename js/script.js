@@ -79,7 +79,7 @@ function welcomeMessage(){
                         <td>${telp}</td>
                         <td>${pesan}</td>
                        </tr>`;
-            tbody.innerHTML += row;
+            // tbody.innerHTML += row;
 
             // Reset form
             form.reset();

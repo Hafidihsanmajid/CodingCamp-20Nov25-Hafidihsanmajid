@@ -13,9 +13,9 @@
     padding: 10px 20px;
     background-color: #b7bcb7;
 }
-/* .nav{
-    background-color: #45a049;
-} */
+.flex{
+  
+}
    .container {
     position: relative;
     width: 100%;
@@ -36,14 +36,26 @@
     text-shadow: 2px 2px 5px black;
   }
   .profil-perusahaan{
-    position: absolute;
+  
+    /* position: absolute;
     top: 170%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black; */
+
+    /* max-width: 700px; */
+    /* margin-bottom: 3px; */
+    /* padding: 20 10px; */
+    text-align: center;
+    font-size: clamp(16px, 2vw, 22px);
+    /* top: 170%; */
+    /* transform: translate(-50%, -50%); */
+    color: rgb(5, 5, 5);
+    font-size: 32px;
+    font-weight: bold;
   }
 
 
@@ -133,14 +145,20 @@ button:hover {
 /* visi & misi */
 
 .visimisi {
-    position: absolute;
+    /* position: absolute;
     top: 260%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black; */
+
+    text-align: center;
+    font-size: clamp(16px, 2vw, 22px);
+    color: rgb(5, 5, 5);
+    font-size: 32px;
+    font-weight: bold;
 }
 .colvisi {
   flex: 1;
@@ -170,14 +188,20 @@ button:hover {
     margin-top: 27px;
 }
 .galery{
-    position: absolute;
+    /* position: absolute;
     top: 352%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 32px;
     font-weight: bold;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black; */
+    position:relative;
+    text-align: center;
+    font-size: clamp(16px, 2vw, 22px);
+    color: rgb(5, 5, 5);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 .gallery-item img {
@@ -277,6 +301,23 @@ button:hover {
 table {
     width: 100%;
     border-collapse: collapse;
+}
+
+
+
+/* footer */
+.footer {
+  background-color: #222;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: auto; 
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 
